@@ -1,10 +1,20 @@
-import {ImageTypes} from "./Image.types";
+import {ImageProps} from "./Image.types";
 
-function Image({ source}:ImageTypes) {
+
+function Image({images, activeOs}:ImageProps) {
+
+    const activeImage = images.find((image) => image.os === activeOs );
+
     return (
-        <div className="ml-4">
-            <img src={source} alt="Selected browser and OS" className="max-w-xs" />
-        </div>
+        <>
+            {activeImage && (
+                <img
+                    src={activeImage.url}
+                    alt=""
+                    className="block mx-auto mt-4 h-auto"
+                />
+            )}
+        </>
     );
 }
 

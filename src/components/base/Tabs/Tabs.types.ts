@@ -1,14 +1,7 @@
-export interface Tab {
-    id: string;
-    label: string;
-    source: string;
-}
+import {ReactNode} from "react";
+
 export interface TabsProps {
-    label: string;
-    tabs: Tab[];
-    activeTab: string;
-    onTabChange: (tabId: string) => void;
+    className?: string
+    title: string,
+    children: ReactNode
 }
-
-
-
