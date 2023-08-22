@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/testAppVadim/static/css/main.9b7d69b7.css",
-    "main.js": "/testAppVadim/static/js/main.4841afcd.js",
+    "main.css": "/testAppVadim/static/css/main.ec6f8ce6.css",
+    "main.js": "/testAppVadim/static/js/main.d276b5a6.js",
     "static/js/787.0c3f432a.chunk.js": "/testAppVadim/static/js/787.0c3f432a.chunk.js",
     "static/media/ff-android.png": "/testAppVadim/static/media/ff-android.78bda2b318ce1310ce29.png",
     "static/media/chrome-android.png": "/testAppVadim/static/media/chrome-android.53cee1fd7e1c72ab8e27.png",
@@ -10,12 +10,12 @@
     "static/media/ff-win.png": "/testAppVadim/static/media/ff-win.78eaf7e6f9bdd29661aa.png",
     "static/media/chrome-win.png": "/testAppVadim/static/media/chrome-win.861152cc74e35e4df333.png",
     "index.html": "/testAppVadim/index.html",
-    "main.9b7d69b7.css.map": "/testAppVadim/static/css/main.9b7d69b7.css.map",
-    "main.4841afcd.js.map": "/testAppVadim/static/js/main.4841afcd.js.map",
+    "main.ec6f8ce6.css.map": "/testAppVadim/static/css/main.ec6f8ce6.css.map",
+    "main.d276b5a6.js.map": "/testAppVadim/static/js/main.d276b5a6.js.map",
     "787.0c3f432a.chunk.js.map": "/testAppVadim/static/js/787.0c3f432a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9b7d69b7.css",
-    "static/js/main.4841afcd.js"
+    "static/css/main.ec6f8ce6.css",
+    "static/js/main.d276b5a6.js"
   ]
 }
