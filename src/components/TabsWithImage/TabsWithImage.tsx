@@ -15,7 +15,7 @@ function TabsWithImage({tabsData}: TabsWithImageProps) {
     };
 
     return (
-        <div className="flex flex-col w-[400px]">
+        <div className="flex items-center justify-center flex-col w-[400px]">
             <div className="flex gap-3">
                 <div className="">
 

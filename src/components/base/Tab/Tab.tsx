@@ -14,8 +14,8 @@ const Tab = ({tabData, isActive, os, onClick}: TabProps) => {
                 <div>
                     <button
                         onClick={() => handleTabClick()}
-                        className={classNames(isActive ? 'rounded py-1 px-2 select-none text-blue-900 cursor-pointer bg-blue-100 hover:text-blue-900 hover:bg-blue-100' :
-                            'py-1 px-2 cursor-pointer hover:text-blue-900 hover:bg-blue-100')}>{tabData?.label} {os}</button>
+                        className={classNames(isActive ? 'text-sm rounded font-semibold py-1 px-2 select-none text-blue-900 cursor-pointer bg-blue-100 hover:text-blue-900 hover:bg-blue-100' :
+                            'font-semibold text-sm py-1 px-2 cursor-pointer hover:rounded hover:text-blue-900 hover:bg-blue-100')}>{tabData?.label} {os}</button>
                 </div>
 
             </div>
